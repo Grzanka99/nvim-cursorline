@@ -26,7 +26,7 @@ local cursorline_bg = return_highlight_term("CursorLine", "guibg")
 
 function M.highlight_cursorword()
   if g.cursorword_highlight ~= false then
-    vim.cmd("highlight CursorWord term=underline cterm=underline gui=underline")
+    vim.cmd("highlight CursorWord term=undeline cterm=underline gui=bold")
   end
 end
 
